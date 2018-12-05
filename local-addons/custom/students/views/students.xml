@@ -52,7 +52,8 @@
         <field name="arch" type="xml">
             <form>
                 <header>
-                    <button name="call_async_func" type="object" class="oe_highlight" string="Start Async func"/>
+                    <button name="call_async_func" type="object" class="oe_highlight" string="Start parse 'Oz'"/>
+                    <button name="unlink" type="object" class="oe_highlight" string="Delete book"/>
                 </header>
              <group>
                 <field name="name" string="Name" placeholder="Name" style=" max-width: 500px;  width: 500px"/>
